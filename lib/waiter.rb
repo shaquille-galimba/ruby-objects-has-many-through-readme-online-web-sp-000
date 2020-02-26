@@ -29,6 +29,6 @@ class Waiter
   def most_freq_customer
     # most_freq_customer = meals.max_by {|meal| meal.customers.length}
     # most_freq_customer
-    Meal.customers
+    meals.customers
   end
 end
