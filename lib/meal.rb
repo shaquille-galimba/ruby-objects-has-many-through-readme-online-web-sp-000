@@ -6,6 +6,7 @@ class Meal
     @waiter, @customer, @total, @tip = waiter, customer, total, tip
     @@all << self
     @customers = []
+    @customers << customer
   end
 
   def self.all
