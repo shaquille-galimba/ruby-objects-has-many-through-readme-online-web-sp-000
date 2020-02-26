@@ -212,5 +212,6 @@ describe "Object relationships" do
 
         expect(terrance.most_freq_customer). to eq(lisa)
       end
+    end
   end
 end
