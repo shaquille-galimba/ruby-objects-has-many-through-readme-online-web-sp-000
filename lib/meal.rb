@@ -9,6 +9,10 @@ class Meal
     @customers << customer
   end
 
+  def customers
+    @customers
+  end
+
   def self.all
     @@all
   end
