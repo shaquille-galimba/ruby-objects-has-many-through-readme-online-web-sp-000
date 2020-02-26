@@ -25,9 +25,4 @@ class Waiter
     end
     best_tipped_meal.customer
   end
-
-  def most_freq_customer
-    most_freq_customer = meals.max_by {|meal| meal.customers.length}
-    most_freq_customer
-  end
 end
