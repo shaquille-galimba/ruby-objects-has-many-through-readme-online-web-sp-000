@@ -7,10 +7,6 @@ class Meal
     @@all << self
   end
 
-  def customers
-    @customers
-  end
-
   def self.all
     @@all
   end
